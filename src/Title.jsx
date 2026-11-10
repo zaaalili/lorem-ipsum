@@ -1,7 +1,7 @@
 const Title = (props) => {
   //   console.log(props); // pas réussi
 
-  return <h1>={props.name}</h1>;
+  return <h2>{props.name}</h2>;
 };
 
 export default Title;

@@ -4,10 +4,10 @@ import Description from "./Description";
 const Content = (props) => {
   // console.log(props); // pas réussi
   return (
-    <>
+    <section>
       <Title name={props.name} />
       <Description text={props.text} />
-    </>
+    </section>
   );
 };
 
